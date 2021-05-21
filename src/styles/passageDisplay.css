@@ -1,0 +1,19 @@
+.passageDisplay {
+  margin-top: 1rem;
+}
+.passageDisplay-header {
+  border: 1px solid black;
+  margin: 0;
+}
+.passageDisplay-header-title {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+.passageDisplay-header-author {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.passageDisplay-header-date {
+  font-size: 0.8 rem;
+}
