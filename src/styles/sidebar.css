@@ -1,0 +1,15 @@
+.sidebar{
+    height: 100%;
+    width: 20%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sidebar-passageList{
+
+}
+.sidebar-passageList-listing{
+    cursor: pointer;
+    text-align: center;
+}

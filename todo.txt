@@ -1,0 +1,20 @@
+Fucntionality 
+- Interval at which words change
+- Interval at which passage highlighting words change
+- Stop/play buttons
+
+Features
+-100, 200, 300, 400, 500 word short stories
+
+Components
+- Custom Passage Entry and Button to get there
+
+Possible Features
+-Users can submit custom passages that are posted on their profile. Others can click on their profile to see all the custom passages they have written. Clicking on a title loads the blitz for the custom passage.
+-User login
+-Search bar for users and short stories
+-Likes for short stories
+-Groups for users to share stories privately
+-User profile feed displays liked passages and written passages
+-Displays friends
+-Backend
