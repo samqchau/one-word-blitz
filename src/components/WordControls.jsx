@@ -2,7 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Button, FormControl, InputGroup, Container } from 'react-bootstrap';
 import '../styles/wordControls.css';
 
-const WordControls = ({ incrementIndex, decrementIndex, resetIndex }) => {
+const WordControls = ({
+  incrementIndex,
+  decrementIndex,
+  resetIndex,
+  passage,
+  index,
+}) => {
   let [wpm, setWpm] = useState(200);
   let [playing, setPlaying] = useState(false);
 
@@ -20,13 +26,18 @@ const WordControls = ({ incrementIndex, decrementIndex, resetIndex }) => {
     let interval;
     if (playing) {
       interval = setInterval(() => {
-        incrementIndex();
+        if (index < passage.length - 1) {
+          incrementIndex();
+          console.log('hi');
+        } else {
+          setPlaying(false);
+        }
       }, wordEveryMiliseconds(wpm));
     } else {
       clearInterval(interval);
     }
     return () => clearInterval(interval);
-  }, [playing, wpm, incrementIndex]);
+  }, [playing, wpm, incrementIndex, index, passage.length]);
 
   return (
     <div className='wordControls'>

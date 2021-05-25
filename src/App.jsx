@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import './styles/app.css';
 import Sidebar from './components/Sidebar.jsx';
