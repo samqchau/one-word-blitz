@@ -1,13 +1,13 @@
 .app {
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
 }
-.app.container{
-    padding: 0;
+.app.container {
+  padding: 0;
 }
-.app-main{
-    height: 100%;
-    width: 80%;
-    border: 1px solid yellow;
+.app-main {
+  height: 100%;
+  width: 80%;
+  border: 1px solid yellow;
 }

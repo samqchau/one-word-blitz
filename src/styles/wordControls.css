@@ -1,3 +1,18 @@
-.wordControls{
-    text-align: center;
+.wordControls {
+  text-align: center;
+}
+
+.wordControls-wpmInput-formControl {
+  min-width: 52px !important;
+  flex: none !important;
+}
+
+.wordControl-inputGroup {
+  width: 116px;
+  display: flex;
+  flex-direction: row;
+}
+
+.wordControl-inputGroup-container {
+  display: inline-block;
 }
