@@ -1,7 +1,7 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
 import '../styles/sidebar.css';
-import PassageListing from '../components/PassageListing.jsx';
+import PassageListing from './PassageListing.jsx';
 import { buildingTheButternut } from '../data/passages/100wordStories.js';
 import { bewareTheBeast } from '../data/passages/200wordStories.js';
 
